@@ -1,0 +1,41 @@
+📌Instruções Gerais
+1. Crie uma pasta chamada site-css.
+
+2. Dentro dessa pasta, crie 5 arquivos HTML: pagina1.html,
+pagina2.html, pagina3.html, pagina4.html, pagina5.html.
+
+3. Todas as páginas devem conter:
+- Um menu de navegação com links para todas as páginas.
+- Um título (<h1>) com o nome do tema da página.
+- Um parágrafo ou conteúdo explicativo.
+- Um bloco <div> com algum conteúdo estilizado.
+- CSS inserido na própria página utilizando a tag <style> (CSS interno)
+e/ou style="" (CSS inline).
+- Pelo menos três propriedades CSS diferentes ensinadas (listadas
+abaixo).
+
+4. Use pelo menos uma classe CSS (class="...") em cada página.
+
+💡 Temas e Estilizações por Página
+
+Página Tema CSS a ser utilizado
+Página 1 Apresentação pessoal --- color, font-size, font-family
+
+Página 2 Hobbies --- background, padding,margin
+
+Página 3 Filme ou série favorita --- border, border-radius, text-align
+
+Página 4 Lugar que gostaria de visitar --- width, height, background
+
+Página 5 Página livre (tema à escolha)  --- Qualquer combinação dosestilos ensinados
+
+✅Entrega
+baixe o arquivo no GiHub
+Envie no Google Classroom até a data estipulada pelo professor.
+
+📚 Dicas
+• Use a tag <style> no <head> para o CSS interno.
+• Use style="..." para testar estilos inline.
+• Crie uma classe como .caixa ou .destaque e use em um ou mais elementos.
+• Reaproveite o menu em todas as páginas.
+• Evite copiar o mesmo conteúdo em todas, crie textos e blocos diferentes por página.
