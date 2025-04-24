@@ -1,12 +1,83 @@
+<!-- Página 1 Apresentação pessoal --- color, font-size, font-family -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula Css</title>
+    <title>Apresentação pessoal</title>
 </head>
 <body>
-    <h1>Aula sobre CSS</h1>
-    <p>baixando no GitHub</p>
+    <header>
+        <div class="container">
+            <nav>
+                <div><a href="index.html">Apresentação pessoal</a></div>
+                <div><a href="pagina2.html">Hobbies</a></div>
+                <div><a href="pagina3.html">Série favorita</a></div>
+                <div><a href="pagina4.html">Lugar que gostaria de visitar</a></div>
+                <div><a href="pagina5.html">Futuro trabalho</a></div>
+            </nav>
+        </div>
+        <h1>Apresentação pessoal</h1>
+        <hr>
+    </header>
+    <main>
+        <h2>Guilherme Mari Kawanami</h2>
+        <p> Sou estudante do ensino médio e curso Desenvolvimento de Sistemas no SESI de Birigui. Tenho grande interesse por tecnologia e inovação, e gosto de estar sempre envolvido em projetos que me desafiem a aprender algo novo.
+
+            Faço parte da equipe de robótica da minha escola, onde trabalhamos com programação, montagem e resolução de desafios em equipe. Participar da robótica tem sido uma experiência incrível, pois além de aprender muito sobre tecnologia, também desenvolvo habilidades como trabalho em grupo, liderança e pensamento lógico.
+            
+            Sou uma pessoa dedicada, curiosa e gosto de buscar soluções criativas para os problemas. Fora da sala de aula, gosto de explorar assuntos como inteligência artificial, eletrônica e tudo que envolva o mundo tech.
+            
+            Estou sempre aberto a novas experiências e acredito que, com dedicação e esforço, é possível alcançar qualquer objetivo!
+        </p>
+        <div><img src="foto.png" alt="foto do Guilherme"></div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
+<style>
+        header {
+            background-color: navy;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    .container {
+        border: 10px;
+        margin: -5px;
+        padding: 10px;
+    }
+    nav div{
+        border-radius: 20px;
+        background-color: rgb(154, 154, 245);
+        display: inline-block;
+        margin: 10px;
+        padding: 5px;
+         
+    }
+    nav div a{
+        text-decoration: none;
+        color: black;
+    }
+    body {
+        background-color: lightskyblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main {
+            background-color: white;
+            width: 80%;
+            margin: 20px auto;
+            padding: 15px;
+            border: 2px solid navy;
+    }
+    main p {
+        width: 600px;
+    }
+    main div {
+        height: 200px;
+        width: 200px;
+        display: inline-block;
+    }
+</style>
